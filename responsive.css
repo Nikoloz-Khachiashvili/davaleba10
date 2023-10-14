@@ -1,0 +1,157 @@
+@media (width > 768px){
+    .groupPhotos{
+        grid-template-columns: auto auto auto auto auto auto;
+        column-gap: 22px;
+    }
+    .photo1{
+        margin-bottom: 28px;
+        width: 110px;
+        height: 110px;
+    }
+    .photo2{
+        width: 110px;
+        height: 110px;
+    }
+    .photo3{
+        margin-bottom: 28px;
+        width: 110px;
+        height: 110px;
+    }
+    .photo4{
+        width: 110px;
+        height: 110px;
+    }
+    .photo5{
+        margin-bottom: 28px;
+        width: 110px;
+        height: 110px;
+    }
+    .photo6{
+        width: 110px;
+        height: 110px;
+    }
+    .photo7{
+        margin-bottom: 28px;
+        width: 110px;
+        height: 110px;
+    }
+    .photo8{
+        width: 110px;
+        height: 110px;
+    }
+    .photo9{
+        margin-bottom: 28px;
+        margin-bottom: 28px;
+        width: 110px;
+        height: 110px;
+    }
+    .photo10{
+        width: 110px;
+        height: 110px;
+    }
+    .photo11{
+        margin-bottom: 28px;
+        width: 110px;
+        height: 110px;
+    }
+    .photo12{
+        width: 110px;
+        height: 110px;
+    }
+    .buttons{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .button2{
+        margin-top: 0;
+        margin-left: 16px;
+    }
+    .four-image{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .bottom-text-div{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    footer{
+        height: 428px;
+        background-image: url(./assets/Bitmap.png);
+        
+    }
+    h1{
+        width: 339px;   
+    }
+    h2{
+        width: 457px;
+    }
+    h6{
+        width: 573px;
+    }
+    }
+
+    @media (width > 1440px){
+        .middle-text-div{
+            display: none;
+        }
+        .bottom-text-div{
+            margin-top: 66px;
+        }
+        footer{
+            height: 308px;
+            display: flex;
+            flex-direction: row;
+            background-image: url(./assets/footermiakhalifa2.png);
+        }
+        p{
+            margin: 200px 0 200px 100px;
+            width: 350px;
+            color: #FAFAFA;
+            font-family: 'Red Hat Display';
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 44px;
+        }
+        h6{
+            margin: 200px 92px 200px 125px;
+            width: 350px;
+            color: #FAFAFA;
+            font-family: 'Red Hat Display';
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 26px;
+          }
+        
+        .button3{
+            margin: 180px 165px 200px 90px;
+          }
+        .groupPhotos{
+            grid-template-columns: auto auto auto auto auto auto auto;
+            column-gap: 45.40px;
+          }
+        .four-image {
+            width: 255px;
+            height: 242px;
+          }
+          
+          h3 {
+            width: 275px;
+            height: 26px;
+        }
+        
+        h4 {
+            width: 350px;
+            height: 88px;
+        }
+        h5 {
+            width: 450px;
+            height: 78px;
+        }
+        }
+    
